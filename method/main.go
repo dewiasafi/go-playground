@@ -5,6 +5,7 @@ import "fmt"
 // Struct = benda atau data
 // Method = aksi atau perilaku
 
+// Method adalah function receiver
 // Cara buat method
 // method itu seperti function biasa
 // tapi punya receiver (penerima) yang terletak di antara func dan nama function
@@ -26,7 +27,9 @@ func main() {
 	// Panggil method-nya pakai titik (.)
 	item.dataBarang()
 	// Receiver ada 2 jenis: value dan pointer
+
 	// Value Receiver --> membuat salinan dari struct, jika data diubah di method data asli tidak berubah (hanya baca)
+	//ketika passing data ke dalam function go secara default akan mengkopi nilainya dan menyimpan di alamat baru
 	// Pointer Receiver --> menggunakan alamat memori aslinya, jika data diubah di method data asli ikut berubah (jika mau edit isi data struct)
 
 	inventaris := []Barang{

@@ -4,7 +4,8 @@ import "fmt"
 
 // struct adalah salah satu konsep u/ mengelompokan variable dengan tipe data yg berbeda-beda.
 // go bukan bahasa OOP murni (ga ada class), jadi struct dipakai untuk kelompokan data
-
+// struct dipakai ketika sebuah kelompok data digunakan berulang
+// cara inisiasi ke dalam variable struct adalah namaStruct{}
 type Barang struct {
 	Nama  string
 	Harga float64
