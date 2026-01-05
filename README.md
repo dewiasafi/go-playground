@@ -7,5 +7,5 @@ Selamat datang di **Playground Go**! Repositori ini adalah tempat saya belajar, 
 - **Basics**: Variabel, tipe data, looping, dan fungsi.
 - **Data Structures**: Eksperimen dengan Slice, Map, dan Struct.
 - **Concurrency**: Belajar Goroutines, Channels, dan WaitGroups.
-- **Projects**: Proyek-proyek kecil seperti CLI Tools atau REST API sederhana.
-- **Standard Library**: Eksperimen dengan package bawaan Go seperti `net/http`, `encoding/json`, dll.
+
+
