@@ -7,5 +7,6 @@ Selamat datang di **Playground Go**! Repositori ini adalah tempat saya belajar, 
 - **Basics**: Variabel, tipe data, looping, dan fungsi.
 - **Data Structures**: Eksperimen dengan Slice, Map, dan Struct.
 - **Concurrency**: Belajar Goroutines, Channels, dan WaitGroups.
+- **Projects**: Buat project sederhana menggunakan syntax basic go
 
 
