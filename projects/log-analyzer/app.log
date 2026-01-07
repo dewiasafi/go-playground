@@ -1,0 +1,6 @@
+[auth][/login] ERROR login failed
+[auth][/login] ERROR login failed
+[auth][/refresh] ERROR token expired
+[order][/create] ERROR database timeout
+[order][/create] ERROR database timeout
+[user][/update] ERROR validation failed
