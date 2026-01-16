@@ -21,6 +21,13 @@ var Data = []Student{
 	{"B002", "bond", 11},
 }
 
+//  Ini dipanggil oleh server saat ada request masuk.
+/*Fungsinya:
+- Baca request dari client
+- Proses data
+- Kirim response
+*/
+
 func main() {
 	http.HandleFunc("/users", GetUsers)
 	http.HandleFunc("/user", GetUserById)
